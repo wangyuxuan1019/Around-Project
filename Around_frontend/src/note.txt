@@ -1,0 +1,32 @@
+Around web feature:
+        1. login - persist login => window.localstorage store token
+        2. Register
+        3. logout 
+        4. search by category
+        5. display Posts
+        6. create a post 
+
+Third party libraries:
+        Andt - UI Component
+        react-gird -> PhotoGallary
+        react-router-dom -> react router
+        axios -> http request
+
+
+
+                                    
+                                    App    state: isLoggedIn
+                                           cb: handleLogout
+                                           cb: handleLogin
+                               
+    TopBar  props cb: handleLogout                       Main  props cb: handleLogin
+            props: isLoggedIn
+                        
+                                Login                    Register                 Home    
+                                props cb: handleLogin                             props cb: handleSearch
+                                                        
+                                                                SearchBar                              Posts
+                                                                props cb: handleSearch
+
+                                                SearchInput                  RadioType           PhotoGallary    Vedio
+               
